@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Passion one';
+    font-size: 7em;
+}
+
+h2 {
+    font: 400 1em Arial;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.boxWithShadown {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47)
+}
+
+section.pic {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section#pic2 {
+    background-image: url('backgrounds/background002.jpg');
+}
+
+section#pic1 {
+    background-image: url('backgrounds/background001.jpg');
+}
+
+p {
+    font-style: italic;
+}
+
+.toRead {
+    padding: 50px;
+    font-size: 40px;
+    color: black;
+}
+
+p.reading {
+    max-width: max-content;
+    position: absolute;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 20px 20px 0px;
+    font-size: 40px;
+    color: white;
+}
+
+footer {
+    margin: 0;
+    padding: 5px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font: normal 400 1em Arial;
+}

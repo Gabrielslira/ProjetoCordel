@@ -36,8 +36,11 @@ a:hover {
     text-decoration: underline;
 } 
 
-section.pic {
+section {
     padding: 10vh 0;
+}
+
+section.pic {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;

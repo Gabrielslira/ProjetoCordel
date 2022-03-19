@@ -57,16 +57,17 @@ p {
 }
 
 .toRead {
-    padding: 50px;
-    font-size: 1.5em;
+    line-height: 2em;
+    margin: 25px;
+    font-size: 5vw;
     color: black;
 }
 
 .reading {
     display: inline-block;
-    margin: 50px;
-    font-size: 1.5em;
-    background-color: rgba(0, 0, 0, 0.5);
+    margin: 25px;
+    font-size: 5vw;
+    background-color: rgba(0, 0, 0, 0.514);
     color: white;
 }
 

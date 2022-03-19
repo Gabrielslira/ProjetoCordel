@@ -59,14 +59,15 @@ p {
 .toRead {
     line-height: 2em;
     margin: 25px;
-    font-size: 5vw;
+    font-size: 3.5vw;
     color: black;
 }
 
 .reading {
     display: inline-block;
+    line-height: 2em;
     margin: 25px;
-    font-size: 5vw;
+    font-size: 3.5vw;
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
 }
@@ -80,9 +81,9 @@ footer {
     font: normal 400 1em Arial;
 }
 
-/* If device width was less than 600px, the both whole text will be set 40px */
-@media (min-width: 600px) {
+/* The font won't be too large in larger screens*/
+@media (min-width: 960px) {
     .toRead, .reading {
-      font-size: 40px;
+        font-size: 2em;
     }
 }
